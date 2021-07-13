@@ -8,7 +8,7 @@ int mini = INT_MAX;
 class Solution
 {
 public:
-    kthSmallestElement1(int a[], int n, int k)
+    int kthSmallestElement1(int a[], int n, int k)
     {
         map<int, int> mp;
         for (int i = 0; i < n; i++)
@@ -26,7 +26,7 @@ public:
         }
         return -1;
     }
-    kthSmallestElement2(int a[], int n, int k)
+    int kthSmallestElement2(int a[], int n, int k)
     {
         sort(a, a + n);
         return a[k - 1];
