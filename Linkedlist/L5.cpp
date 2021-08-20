@@ -69,7 +69,7 @@ public:
     {
         if (head == NULL || head->next == NULL)
         {
-            return false;
+            return NULL;
         }
         node *slow = head;
         node *fast = head;
