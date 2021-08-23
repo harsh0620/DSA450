@@ -67,17 +67,6 @@ int main()
     return 0;
 }
 
-// } Driver Code Ends
-
-/* Linked List Node
-struct Node {
-  int data;
-  struct Node *next;
-  Node(int x) {
-    data = x;
-    next = NULL;
-  }
-}; */
 int getCount(Node *head)
 {
     Node *curr = head;
