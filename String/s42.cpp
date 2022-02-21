@@ -1,4 +1,4 @@
-#include <string.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 #define MAX_CHARS 256
